@@ -26,13 +26,13 @@ environment:
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
-# versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^0.8.9
-  flutter_tflite: ^1.0.1
-  tflite_flutter: ^0.11.0
+
+  tflite_flutter: ^0.11.0  # Use the latest stable version
+  image_picker: ^1.1.2    # For image picking
+  image: ^4.3.0
   url_launcher: ^6.3.0
   package_info_plus: ^8.0.2
   share_plus: ^10.0.2
@@ -51,7 +51,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
